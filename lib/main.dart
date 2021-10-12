@@ -1,5 +1,6 @@
 //import 'package:disenios_app/src/pages/circulares_page.dart';
 //import 'package:disenios_app/src/labs/slideshow_page.dart';
+import 'package:disenios_app/src/pages/pinterest_page.dart';
 import 'package:disenios_app/src/pages/slideshows_page.dart';
 //import 'package:disenios_app/src/challenges/cuadrado_animado_page.dart';
 //import 'package:disenios_app/src/pages/animaciones_page.dart';
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const SlideShowPage()
+      home: PinterestPage()
     );
   }
 }
